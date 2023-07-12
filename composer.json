@@ -1,0 +1,22 @@
+{
+  "name": "olayinkasagoe/founfation",
+  "description": "DB foundation",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Olayinkasagoe\\Foundation\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Olayinka Sagoe",
+      "email": "sagoe.olayinka@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "~2.5",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  }
+}
